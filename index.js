@@ -5,8 +5,8 @@ const Intern = require("./lib/Intern.js");
 const Manager = require("./lib/Manager.js");
 
 
-const Employee = new Employee();
-const Manager = new Manager();
+// const Employee = new Employee();
+// const Manager = new Manager();
 
 function init() {
     inquirer
@@ -20,8 +20,8 @@ function init() {
             .then( (Start) => {
                 if (Start.start === "Yes") {
                     console.log("Good, let's begin");
-                    Employee.getRole();
-                    Manager.getOfficeNumber();
+                    // Employee.getRole();
+                    // Manager.getOfficeNumber();
                 } else {
                     return;
                 }
